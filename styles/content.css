@@ -1,0 +1,48 @@
+#inicial-container {
+  background-image: url(../assets/Intro.png);
+  height: 750px;
+  display: grid;
+}
+
+#inicial-content {
+  width: 1040px;
+  height: 447px;
+  place-self: center;
+}
+
+.header {
+  width: 680px;
+  place-items: center;
+  margin: 0px 180px;
+}
+
+.header .subtitle {
+  margin-top: 56px;
+  margin-bottom: 8px;
+}
+
+.header .text-sm {
+  margin-top: 20px;
+}
+
+.lang {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin-top: 80px;
+  width: 754px;
+  height: 40px;
+  margin: 80px 143px 0px 143px;
+}
+
+.button-lang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-400);
+  border-radius: 999px;
+  padding: 8px 16px;
+  gap: 8px;
+  color: var(--gray-200);
+  width: 140px;
+}

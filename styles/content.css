@@ -49,3 +49,56 @@
   color: var(--gray-200);
   width: 140px;
 }
+
+.arrow-down {
+  margin: 94px 702px 60px 702px;
+}
+
+.projects {
+  display: grid;
+  place-content: center;
+  background-color: var(--gray-500);
+  height: 917px;
+  max-width: 100%;
+}
+
+.header-projects {
+  margin: 72px 163px 56px 163px;
+  max-width: 100%;
+  width: 1040px;
+  place-self: center;
+  place-items: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 100%;
+  width: 1040px;
+  height: 584px;
+  gap: 24px;
+  margin: 0px 163px 144px 163px;
+
+  img {
+    border-radius: 8px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  p {
+    color: var(--gray-200);
+  }
+
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+}
+
+.fundo {
+  background-color: var(--gray-400);
+  height: 280px;
+  width: 330px;
+  border-radius: 12px;
+  padding: 12px;
+}
